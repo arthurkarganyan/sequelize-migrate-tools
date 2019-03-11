@@ -1,6 +1,6 @@
 {
   "name": "sequelize-migrate-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Write sequelize migrations faster",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "sequelize"
+  ],
+  "files": [
+    "src/**/*.js"
   ],
   "author": "Arthur Karganyan",
   "license": "MIT",
