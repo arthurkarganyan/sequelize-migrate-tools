@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-migrate-tools",
+  "version": "0.0.1",
+  "description": "Write sequelize migrations faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurkarganyan/sequelize-migrate-tools.git"
+  },
+  "keywords": [
+    "sequelize"
+  ],
+  "author": "Arthur Karganyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthurkarganyan/sequelize-migrate-tools/issues"
+  },
+  "homepage": "https://github.com/arthurkarganyan/sequelize-migrate-tools#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
