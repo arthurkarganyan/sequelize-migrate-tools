@@ -4,7 +4,9 @@
   "description": "Write sequelize migrations faster",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags",
+    "prepublish": "npm version minor"
   },
   "repository": {
     "type": "git",
