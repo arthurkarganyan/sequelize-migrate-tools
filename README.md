@@ -6,7 +6,7 @@ Write sequelize migrations faster
 `addColumnsMigration` handles adding and removing columns by returning both `up` and `down` keys.
 
 ```js
-const { dropColumnsMigration } = require('../helpers/dropColumnsMigration')
+const { addColumnsMigration } = require('../helpers/addColumnsMigration')
 
 const Sequelize = require("sequelize")
 
