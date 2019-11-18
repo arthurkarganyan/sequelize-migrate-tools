@@ -1,6 +1,6 @@
 {
   "name": "sequelize-migrate-tools",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Write sequelize migrations faster",
   "main": "index.js",
   "scripts": {
