@@ -1,5 +1,3 @@
-const _ = require("lodash");
-
 const { addColumnIfNotExists } = require('./addColumnIfNotExists');
 
 const dropColumnsMigration = (tableName, columns) => {
@@ -10,8 +8,8 @@ const dropColumnsMigration = (tableName, columns) => {
       }));
     },
     down: (queryInterface, Sequelize) => {
-      return Promise.all(_.map(columns, (options, columnName) => {
-        return addColumnIfNotExists(queryInterface, tableName, columnName, options);
+      return Promise.all(Object.keys(columns).map((columnName) => {
+        return addColumnIfNotExists(queryInterface, tableName, columnName, column[columnName]);
       }));
     },
   };
